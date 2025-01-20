@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 public class Box {
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\Administrator\\Downloads\\workflow-approval.html";
+        String filePath = "workflow-approval.html";
         try{
 
             String file = Files.readString(Paths.get(filePath));
