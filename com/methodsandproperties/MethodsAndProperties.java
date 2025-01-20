@@ -10,7 +10,8 @@ public class MethodsAndProperties {
 
     public static void main(String[] args) {
 
-        String filepath = "C:\\Users\\Administrator\\IdeaProjects\\Lists\\src\\Book.java";
+        // Add your java file here
+        String filepath = "Book.java";
 
         try {
             String file = Files.readString(Paths.get(filepath));
